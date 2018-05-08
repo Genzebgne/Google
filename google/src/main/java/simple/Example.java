@@ -11,7 +11,7 @@ public class Example
 	
 	public void google()
 	{
-		System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
+		//System.setProperty("webdriver.gecko.driver", "src\\main\\resources\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://www.google.com/");
 		System.out.println("the title is " + driver.getTitle());
